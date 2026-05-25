@@ -7,7 +7,7 @@ public class JobMarketTrendAnalysis {
       int sectorChoice;
       int vacancies;
       System.out.println("Job Market Trend Analysis system");
-      System.out.println("1. IT Sector");
+      System.out.println("1. Information Technology Sector");
       System.out.println("2. Healthcare Sector");
       System.out.println("3. Education Sector");
       
@@ -39,7 +39,7 @@ public class JobMarketTrendAnalysis {
               }
               break;
            default:
-              System.out.println("Invalid sector choice");        
+              System.out.println("Invalid sector selected");        
       }
       input.close();
     }
