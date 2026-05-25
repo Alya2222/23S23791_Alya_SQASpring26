@@ -18,8 +18,8 @@ public class JobMarketTrendAnalysis {
       vacancies= input.nextInt();
       switch (sectorChoice){
           case 1:
-              if (vacancies >= 100){
-                 System.out.println("Hight demand in IT sector "); 
+              if (vacancies >= 150){
+                 System.out.println("Very high demand in IT sector "); 
               } else {
                   System.out.println("Low demad in IT sector");
               }
