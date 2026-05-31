@@ -18,6 +18,7 @@ public class JobMarketTrendAnalysis {
       vacancies= input.nextInt();
       switch (sectorChoice){
           case 1:
+              // IT sector high demand threshold
               if (vacancies >= 100){
                  System.out.println("Hight demand in IT sector "); 
               } else {
@@ -25,6 +26,7 @@ public class JobMarketTrendAnalysis {
               }
               break;
           case 2:
+              // Healthcare sector high demand threshold
               if (vacancies >= 80){
                  System.out.println("Hight demand in Healthcare sector "); 
               } else {
@@ -32,6 +34,7 @@ public class JobMarketTrendAnalysis {
               }
               break;
            case 3:
+              // Education sector high demand threshold
               if (vacancies >= 60){
                  System.out.println("Hight demand in Education sector "); 
               } else {
