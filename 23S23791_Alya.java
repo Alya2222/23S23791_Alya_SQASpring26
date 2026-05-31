@@ -39,7 +39,7 @@ public class JobMarketTrendAnalysis {
               }
               break;
            default:
-              System.out.println("Invalid sector choice");        
+              System.out.println("Invalid sector selected. Please choose 1, 2, or 3.");        
       }
       input.close();
     }
