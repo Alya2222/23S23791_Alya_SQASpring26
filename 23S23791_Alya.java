@@ -16,6 +16,11 @@ public class JobMarketTrendAnalysis {
       
       System.out.println("Enter number of vacancies: ");
       vacancies= input.nextInt();
+
+        if (vacancies < 0) {
+    System.out.println("Vacancy value cannot be negative.");
+    return;
+}
       switch (sectorChoice){
           case 1:
               // IT sector high demand threshold
